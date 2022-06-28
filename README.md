@@ -38,7 +38,7 @@ O objetivo desse projeto é fornecer métodos para facilitar o processo de preve
 ## 🧪 Como funciona
 
 ### O que é análise combinatória? 🤓
-(Se você já sabe o que é análise combinatória, combinação simples e fatorial, siga para o próximo tópico <a href="#-o-problema-encontrado-nas-soluções-existentes">clicando aqui</a>)
+(Se você já sabe o que é análise combinatória, combinação simples e fatorial, siga para o próximo tópico <a href="#o-problema-encontrado-nas-soluções-existentes-">clicando aqui</a>)
 
 A analise combinatória consiste, entre outras funções,
 em auxiliar no cálculo de possibilidades de combinação
