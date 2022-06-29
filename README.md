@@ -70,7 +70,7 @@ Stack Overflow para *executar* a combinação entre elementos (gerar as reais li
 
 Mas e se nós precisássemos de uma função que não só gerasse as combinações de <b>P</b> elementos dentro de um grupo com
 <b>N</b> elementos, mas também permitisse montar conjuntos entre esse grupo e <b>X</b> outros grupos? <br>
-E melhor ainda, que cada um desses grupos pudesse ter uma valor específico para <b>P</b> e <b>N</b>?
+E melhor ainda, que cada um desses grupos pudesse ter um valor específico para <b>P</b> e <b>N</b>?
 
 Ainda não entendeu a premissa desse projeto e como ele pode ser útil? Observe o tópico abaixo "Exemplo na prática" para entender melhor.
 
