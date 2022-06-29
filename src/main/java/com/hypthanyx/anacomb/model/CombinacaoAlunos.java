@@ -7,7 +7,7 @@ import java.util.List;
 
 @Data
 @NoArgsConstructor
-public class CombinacaoPoliticos {
-    private Politico politico;
-    private List<Politico> politicos;
+public class CombinacaoAlunos {
+    private Aluno aluno;
+    private List<Aluno> alunos;
 }
