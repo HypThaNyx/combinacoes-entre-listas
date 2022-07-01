@@ -58,6 +58,8 @@ A resposta é <b>190</b> dado a equação abaixo de análise combinatória (comb
 
 <img src="https://images.educamaisbrasil.com.br/content/banco_de_imagens/mb/d/analise-combinatoria-combinacao-simples.jpg" width="200">
 
+Por simplificação, iremos chamar essa equação de Combin(N, P).
+
 Se você está se perguntando ou tentando se lembrar do que é esse sinal de exclamação, saiba que ele representa a operação
 de fatorial (!) que basicamente representa a multiplicação daquele número por todos os números anteriores a ele, até chegar a 1. <br>
 <b>Exemplo: 5! = 5 * 4 * 3 * 2 * 1</b>
@@ -78,10 +80,29 @@ Ainda não entendeu a premissa desse projeto e como ele pode ser útil? Observe 
 
 ## 🔨 Exemplo na prática
 
+### Grêmio Estudantil 🎓
+
+Para demonstrar de maneira simples e intuitiva a utilidade de uma fórmula um pouco mais avançada
+como a que iremos utilizar, vamos usar o exemplo de uma escola que precisa formar
+um Grêmio estudantil contando com a participação dos alunos.
+
+Na nossa analogia, o diretor da escola quer saber <b> quantas *(prever)* </b> e <b> quais *(executar)* </b> seriam TODAS
+as possíveis chapas que poderiam ser criadas para formar o Grêmio estudantil, dadas as seguintes informações:
+- A quantidade X de *salas* que desejam participar da formação do Grêmio.
+- A quantidade Y de *alunos* que desejam participar de cada sala (Y podendo variar para cada sala individualmente)
+- A *cota* Z de quantos alunos serão selecionados de cada sala (Z podendo variar para cada sala individualmente)
+
+Para saber <b> quantas *(prever)* </b> as possibilidades de chapas que poderiam ser criadas, o diretor precisaria usar
+uma junção inteligente das fórmulas apresentadas no capítulo anterior para calcular todas as chapas possíveis, seguindo uma lógica como a seguinte:
+- Para cada sala, seria necessário calcular separadamente a análise combinatória considerando o número de alunos interessados (Y)
+e a cota de alunos elegíveis (Z) para aquela sala, visando descobrir todas as possíveis combinações de Z alunos entre todos os alunos
+interessados daquela sala. A fórmula para obter esse resultado seria Combin(Y, Z). *Consulte o capítulo anterior para ver a fórmula por extenso*.
+- Após obter o resultado de combinações de cada sala separadamente, teríamos que multiplicar cada um dos resultados para
+obter o número total de combinações de todas as salas.
+
 ---
 
 ## 🚀 Testando na sua máquina
-
 
 ---
 
